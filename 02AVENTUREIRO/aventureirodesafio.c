@@ -53,7 +53,7 @@ int main() {
     densidadePopulacionalCidade1 = populacaoCidade1 / areaCidade1;
     densidadePopulacionalCidade2 = populacaoCidade2 / areaCidade2;
 
-    // Menu Interativo para atributo de comparação
+    // Menu Interativo de comparação
 
     int opcao;
     printf("\nDigite o atributo que deseja comparar: \n");
@@ -67,6 +67,26 @@ int main() {
 
     switch (opcao) {
     case 1:
+
+    // Comparação da População
+
+    if (populacaoCidade1 > populacaoCidade2) {
+    printf("\nPopulação: Carta 1 venceu! \n");
+    printf("Valor da Carta 1: %lu habitantes \n", populacaoCidade1);
+    printf("Valor da Carta 2: %lu habitantes \n", populacaoCidade2);
+        }else if (populacaoCidade2 > populacaoCidade1) {
+        printf("\nPopulação: Carta 2 venceu! \n");
+        printf("Valor da Carta 1: %lu habitantes \n", populacaoCidade1);
+        printf("Valor da Carta 2: %lu habitantes \n", populacaoCidade2);
+            }else {
+            printf("\nPopulação: Empate! \n");
+            printf("Valor da Carta 1: %lu habitantes \n", populacaoCidade1);
+            printf("Valor da Carta 2: %lu habitantes \n", populacaoCidade2);
+            }
+            break;
+        case 2:
+
+    
 
 
 
