@@ -122,6 +122,24 @@ int main() {
             break;
         case 4:
 
+    // Comparação do Número de Pontos Turísticos
+
+    if (pontosTuristicosCidade1 > pontosTuristicosCidade2) {
+    printf("\nNúmero de Pontos Turísticos: Carta 1 venceu! \n");
+    printf("Valor da Carta 1: %d pontos \n", pontosTuristicosCidade1);
+    printf("Valor da Carta 2: %d pontos \n", pontosTuristicosCidade2);
+        }else if (pontosTuristicosCidade2 > pontosTuristicosCidade1) {
+        printf("\nNúmero de Pontos Turísticos: Carta 2 venceu! \n");
+        printf("Valor da Carta 1: %d pontos \n", pontosTuristicosCidade1);
+        printf("Valor da Carta 2: %d pontos \n", pontosTuristicosCidade2);
+            }else {
+            printf("\nNúmero de Pontos Turísticos: Empate! \n");
+            printf("Valor da Carta 1: %d pontos \n", pontosTuristicosCidade1);
+            printf("Valor da Carta 2: %d pontos \n", pontosTuristicosCidade2);   
+            }
+            break;
+        case 5:
+
 
     
 
