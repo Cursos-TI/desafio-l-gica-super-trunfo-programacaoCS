@@ -94,6 +94,120 @@ int main() {
                         }
                         scanf(" %d", &opcao2);
 
-    
+    // Comparação dos Atributos
 
-  
+    float somaCidade1 = 0, somaCidade2 = 0;
+        if (opcao1 == 1) {
+            somaCidade1 += populacaoCidade1;
+            somaCidade2 += populacaoCidade2;
+        printf("\nPopulação: ");
+            if (populacaoCidade1 > populacaoCidade2) {
+            printf("Carta 1 venceu! \n");
+                }else if (populacaoCidade2 > populacaoCidade1) {
+                printf("Carta 2 venceu! \n");
+                    }else {
+                    printf("Empate! \n");
+                    }
+                    }else if (opcao1 == 2) {
+                        somaCidade1 += areaCidade1;
+                        somaCidade2 += areaCidade2;
+                    printf("\nÁrea: ");
+        if (areaCidade1 > areaCidade2) {
+        printf("Carta 1 venceu! \n");
+            }else if (areaCidade2 > areaCidade1) {
+            printf("Carta 2 venceu! \n");
+                }else {
+                printf("Empate! \n");
+                }
+                }else if (opcao1 == 3) {
+                    somaCidade1 += pibCidade1;
+                    somaCidade2 += pibCidade2;
+                printf("\nPIB: ");
+                    if (pibCidade1 > pibCidade2) {
+                    printf("Carta 1 venceu! \n");
+                        }else if (pibCidade2 > pibCidade1) {
+                        printf("Carta 2 venceu! \n");
+                            }else {
+                            printf("Empate! \n");
+                            }
+                            }else if (opcao1 == 4) {
+                                somaCidade1 += pontosTuristicosCidade1;
+                                somaCidade2 += pontosTuristicosCidade2;
+                            printf("\nNúmero de Pontos Turísticos: ");
+                                if (pontosTuristicosCidade1 > pontosTuristicosCidade2) {
+                                printf("Carta 1 venceu! \n");
+                                    }else if (pontosTuristicosCidade2 > pontosTuristicosCidade1) {
+                                    printf("Carta 2 venceu! \n");
+                                        }else {
+                                        printf("Empate! \n");
+                                        }
+                                        }else if (opcao1 == 5) {
+                                            somaCidade1 += densidadePopulacionalCidade1;
+                                            somaCidade2 += densidadePopulacionalCidade2;
+                                        printf("\nDensidade Demográfica: ");
+                                            if (densidadePopulacionalCidade1 < densidadePopulacionalCidade2) {
+                                            printf("Carta 1 venceu! \n");
+                                                }else if (densidadePopulacionalCidade2 < densidadePopulacionalCidade1) {
+                                                printf("Carta 2 venceu! \n");
+                                                    }else {
+                                                    printf("Empate! \n");
+                                                    }
+                                                }
+        if (opcao2 == 1) {
+            somaCidade1 += populacaoCidade1;
+            somaCidade2 += populacaoCidade2;
+        printf("\nPopulação: ");
+            if (populacaoCidade1 > populacaoCidade2) {
+            printf("Carta 1 venceu! \n");
+                }else if (populacaoCidade2 > populacaoCidade1) {
+                printf("Carta 2 venceu! \n");
+                }else {
+                printf("Empate! \n");
+                }
+                    }else if (opcao2 == 2) {
+                        somaCidade1 += areaCidade1;
+                        somaCidade2 += areaCidade2;
+                    printf("\nÁrea: ");
+                if (areaCidade1 > areaCidade2) {
+                printf("Carta 1 venceu! \n");
+                    }else if (areaCidade2 > areaCidade1) {
+                    printf("Carta 2 venceu! \n");
+                        }else {
+                        printf("Empate! \n");
+                    }
+                    }else if (opcao2 == 3) {
+                        somaCidade1 += pibCidade1;
+                        somaCidade2 += pibCidade2;
+                    printf("\nPIB: ");
+                        if (pibCidade1 > pibCidade2) {
+                        printf("Carta 1 venceu! \n");
+                            }else if (pibCidade2 > pibCidade1) {
+                            printf("Carta 2 venceu! \n");
+                        }else {
+                        printf("Empate! \n");
+                    }
+                    }else if (opcao2 == 4) {
+                        somaCidade1 += pontosTuristicosCidade1;
+                        somaCidade2 += pontosTuristicosCidade2;
+                    printf("\nNúmero de Pontos Turísticos: ");
+                        if (pontosTuristicosCidade1 > pontosTuristicosCidade2) {
+                        printf("Carta 1 venceu! \n");
+                            }else if (pontosTuristicosCidade2 > pontosTuristicosCidade1) {
+                            printf("Carta 2 venceu! \n");
+                        }else {
+                        printf("Empate! \n");
+                    }
+                    }else if (opcao2 == 5) {
+                        somaCidade1 += densidadePopulacionalCidade1;
+                        somaCidade2 += densidadePopulacionalCidade2;
+                    printf("\nDensidade Demográfica: ");
+                        if (densidadePopulacionalCidade1 < densidadePopulacionalCidade2) {
+                        printf("Carta 1 venceu! \n");
+                            }else if (densidadePopulacionalCidade2 < densidadePopulacionalCidade1) {
+                            printf("Carta 2 venceu! \n");
+                        }else {
+                        printf("Empate! \n");
+                        }
+                        }
+
+    
