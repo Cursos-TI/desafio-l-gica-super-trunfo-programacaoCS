@@ -226,6 +226,7 @@ int main() {
                 printf("Empate! \n");
                 }
 
-            }
+            
+}
 
     
