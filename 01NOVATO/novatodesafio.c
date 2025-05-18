@@ -55,3 +55,7 @@ int main() {
     densidadePopulacionalCidade2 = populacaoCidade2 / areaCidade2;
     pibPerCapitaCidade1 = (pibCidade1 * 1000000000) / populacaoCidade1;
     pibPerCapitaCidade2 = (pibCidade2 * 1000000000) / populacaoCidade2;
+
+    // Exibição dos dados das Cartas
+
+    printf("\nDados das Cartas:\n");
