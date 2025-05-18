@@ -54,7 +54,46 @@ int main() {
     densidadePopulacionalCidade1 = populacaoCidade1 / areaCidade1;
     densidadePopulacionalCidade2 = populacaoCidade2 / areaCidade2;
 
+    // Menu Interativo para escolha dos Atributos
 
+    int opcao1, opcao2;
+    printf("\nEscolha o primeiro atributo para comparar: \n");
+    printf("1. População \n");
+    printf("2. Área \n");
+    printf("3. PIB \n");
+    printf("4. Número de Pontos Turísticos \n");
+    printf("5. Densidade Demográfica \n");
+    scanf(" %d", &opcao1);
 
+    printf("\nEscolha o segundo atributo para comparar: \n");
+        if (opcao1 == 1) {
+        printf("2. Área \n");
+        printf("3. PIB \n");
+        printf("4. Número de Pontos Turísticos \n");
+        printf("5. Densidade Demográfica \n");
+            }else if (opcao1 == 2) {
+            printf("1. População \n");
+            printf("3. PIB \n");
+            printf("4. Número de Pontos Turísticos \n");
+            printf("5. Densidade Demográfica \n");
+                }else if (opcao1 == 3) {
+                printf("1. População \n");
+                printf("2. Área \n");
+                printf("4. Número de Pontos Turísticos \n");
+                printf("5. Densidade Demográfica \n");
+                    }else if (opcao1 == 4) {
+                    printf("1. População \n");
+                    printf("2. Área \n");
+                    printf("3. PIB \n");
+                    printf("5. Densidade Demográfica \n");
+                        }else if (opcao1 == 5) {
+                        printf("1. População \n");
+                        printf("2. Área \n");
+                        printf("3. PIB \n");
+                        printf("4. Número de Pontos Turísticos \n");
+                        }
+                        scanf(" %d", &opcao2);
 
+    
 
+  
