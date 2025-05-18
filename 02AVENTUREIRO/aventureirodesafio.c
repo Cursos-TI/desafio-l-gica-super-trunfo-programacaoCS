@@ -104,6 +104,24 @@ int main() {
             break;
         case 3:
 
+    // Comparação do PIB
+
+    if (pibCidade1 > pibCidade2) {
+    printf("\nPIB: Carta 1 venceu! \n");
+    printf("Valor da Carta 1: %.2f bilhões de reais \n", pibCidade1);
+    printf("Valor da Carta 2: %.2f bilhões de reais \n", pibCidade2);
+        }else if (pibCidade2 > pibCidade1) {
+        printf("\nPIB: Carta 2 venceu! \n");
+        printf("Valor da Carta 1: %.2f bilhões de reais \n", pibCidade1);
+        printf("Valor da Carta 2: %.2f bilhões de reais \n", pibCidade2);
+            }else {
+            printf("\nPIB: Empate! \n");
+            printf("Valor da Carta 1: %.2f bilhões de reais \n", pibCidade1);
+            printf("Valor da Carta 2: %.2f bilhões de reais \n", pibCidade2);
+            }
+            break;
+        case 4:
+
 
     
 
