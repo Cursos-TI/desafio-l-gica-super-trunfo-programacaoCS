@@ -53,6 +53,21 @@ int main() {
     densidadePopulacionalCidade1 = populacaoCidade1 / areaCidade1;
     densidadePopulacionalCidade2 = populacaoCidade2 / areaCidade2;
 
+    // Menu Interativo para atributo de comparação
+
+    int opcao;
+    printf("\nDigite o atributo que deseja comparar: \n");
+    printf("1. População \n");
+    printf("2. Área \n");
+    printf("3. PIB \n");
+    printf("4. Número de Pontos Turísticos \n");
+    printf("5. Densidade Demográfica \n");
+    printf("Digite a opção desejada: \n");
+    scanf(" %d", &opcao);
+
+    switch (opcao) {
+    case 1:
+
 
 
 
