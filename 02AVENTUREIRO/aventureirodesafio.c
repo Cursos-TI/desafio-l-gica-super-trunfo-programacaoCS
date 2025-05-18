@@ -140,6 +140,29 @@ int main() {
             break;
         case 5:
 
+    // Comparação da Densidade Demográfica
+
+    if (densidadePopulacionalCidade1 < densidadePopulacionalCidade2) {
+    printf("\nDensidade Demográfica: Carta 1 venceu! \n");
+    printf("Valor da Carta 1: %.2f hab/km² \n", densidadePopulacionalCidade1);
+    printf("Valor da Carta 2: %.2f hab/km² \n", densidadePopulacionalCidade2);
+        }else if (densidadePopulacionalCidade2 < densidadePopulacionalCidade1) {
+        printf("\nDensidade Demográfica: Carta 2 venceu! \n");
+        printf("Valor da Carta 1: %.2f hab/km² \n", densidadePopulacionalCidade1);
+        printf("Valor da Carta 2: %.2f hab/km² \n", densidadePopulacionalCidade2);
+            }else {
+            printf("\nDensidade Demográfica: Empate! \n");
+            printf("Valor da Carta 1: %.2f hab/km² \n", densidadePopulacionalCidade1);
+            printf("Valor da Carta 2: %.2f hab/km² \n", densidadePopulacionalCidade2);
+            }
+            break;
+                default:
+                printf("\nOpção Inválida! \n");
+                break;
+                }
+
+            
+
 
     
 
