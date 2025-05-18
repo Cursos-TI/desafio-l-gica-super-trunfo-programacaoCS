@@ -90,3 +90,19 @@ int main() {
 
     printf("\nComparação de Cartas:\n");
 
+    // Comparando apenas a população
+
+    if (populacaoCidade1 > populacaoCidade2) {
+    printf("População: Carta 1 venceu!\n");
+    printf("Valor da Carta 1: %lu habitantes\n", populacaoCidade1);
+    printf("Valor da Carta 2: %lu habitantes\n", populacaoCidade2);
+        }else if (populacaoCidade2 > populacaoCidade1) {
+        printf("População: Carta 2 venceu!\n");
+        printf("Valor da Carta 1: %lu habitantes\n", populacaoCidade1);
+        printf("Valor da Carta 2: %lu habitantes\n", populacaoCidade2);
+            }else {
+            printf("População: Empate!\n");
+            printf("Valor da Carta 1: %lu habitantes\n", populacaoCidade1);
+            printf("Valor da Carta 2: %lu habitantes\n", populacaoCidade2);
+    }
+
