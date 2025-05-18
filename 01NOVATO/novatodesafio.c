@@ -88,5 +88,5 @@ int main() {
 
     // Comparação das Cartas
 
-     printf("\nComparação de Cartas:\n");
+    printf("\nComparação de Cartas:\n");
 
