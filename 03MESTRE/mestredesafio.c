@@ -218,12 +218,14 @@ int main() {
     printf("Carta 2: %s - %s \n", nomeCidade2, codigoCidade2);
     printf("Soma dos atributos da Carta 1: %.2f \n", somaCidade1);
     printf("Soma dos atributos da Carta 2: %.2f \n", somaCidade2);
-    if (somaCidade1 > somaCidade2) {
-    printf("Carta 1 venceu! \n");
-    }else if (somaCidade2 > somaCidade1) {
-    printf("Carta 2 venceu! \n");
-    }else {
-    printf("Empate! \n");
-    }
+        if (somaCidade1 > somaCidade2) {
+        printf("Carta 1 venceu! \n");
+            }else if (somaCidade2 > somaCidade1) {
+            printf("Carta 2 venceu! \n");
+                }else {
+                printf("Empate! \n");
+                }
+
+            }
 
     
